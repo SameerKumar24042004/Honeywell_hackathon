@@ -1,11 +1,12 @@
 
 <h1 align="center">Beer Manufacturing Analysis</h1>
 
-<p align="center">
-   <a href="https://banomaly.streamlit.app/" target="_blank" style="font-size:2rem;">
-      <b>🚀 Try the Live Streamlit App</b>
+
+<h2 align="center">
+   <a href="https://banomaly.streamlit.app/" target="_blank">
+      <b>🚀 TRY THE LIVE STREAMLIT APP</b>
    </a>
-</p>
+</h2>
 
 
 This project provides a complete pipeline for analyzing beer manufacturing data, building predictive models, and visualizing results through an interactive dashboard. It helps breweries and analysts gain insights into production processes, improve efficiency, and make data-driven decisions using real-world datasets and machine learning models.
