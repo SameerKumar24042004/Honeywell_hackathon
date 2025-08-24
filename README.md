@@ -1,4 +1,3 @@
-
 # Beer Manufacturing Analysis
 
 This project provides a complete pipeline for analyzing beer manufacturing data, building predictive models, and visualizing results through an interactive dashboard. It helps breweries and analysts gain insights into production processes, improve efficiency, and make data-driven decisions using real-world datasets and machine learning models.
@@ -12,7 +11,7 @@ This project provides a complete pipeline for analyzing beer manufacturing data,
 ## Project Workflow
 ```mermaid
 flowchart TD
-    A[Raw Data\n(beers.csv, enhanced_beer_data.csv)] -->|Clean & Process| B[data_processor.py]
+    A[Raw Data<br/>(beers.csv, enhanced_beer_data.csv)] -->|Clean & Process| B[data_processor.py]
     B -->|Trained Models| C[beer_model.pkl, beer_manufacturing_models.pkl]
     C -->|Visualization & Prediction| D[dashboard.py]
     D --> E[User Interface]
