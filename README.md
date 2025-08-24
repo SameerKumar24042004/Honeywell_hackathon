@@ -11,7 +11,7 @@ This project provides a complete pipeline for analyzing beer manufacturing data,
 ## Project Workflow
 ```mermaid
 flowchart TD
-    A[Raw Data<br/>(beers.csv, enhanced_beer_data.csv)] -->|Clean & Process| B[data_processor.py]
+    A[Raw Data (beers.csv, enhanced_beer_data.csv)] -->|Clean & Process| B[data_processor.py]
     B -->|Trained Models| C[beer_model.pkl, beer_manufacturing_models.pkl]
     C -->|Visualization & Prediction| D[dashboard.py]
     D --> E[User Interface]
